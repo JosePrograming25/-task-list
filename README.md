@@ -7,7 +7,9 @@ Task List es una aplicación de lista de tareas simple y eficiente construida co
 - Agregar nuevas tareas.
 - Eliminar tareas existentes.
 - Marcar tareas como completadas o no completadas.
+- Filtra las tareas en orden decendente o acendente por: completadas, no completadas, fecha o alfabeticamente
 - Almacenamiento de tareas en el almacenamiento local del navegador.
+
 
 ## Instalación
 
@@ -18,23 +20,24 @@ Sigue estos pasos para instalar y ejecutar la aplicación localmente:
    ```bash
    git clone https://github.com/JosePrograming25/-task-list.git
 
-2.Navega al directorio del proyecto:
+2. Navega al directorio del proyecto:
 
    ```bash
    cd -task-list
 
-3.Instala las dependencias:
+3. Instala las dependencias:
 
-```bash
-   npm install
+    ```bash
+    npm install
 
-4.Inicia la aplicación:
+4. Inicia la aplicación:
 
-```bash
-   npm start
+    ```bash
+    npm start
 
 
-##  Uso
+## Uso
+
 En la página principal, puedes ver las tareas existentes.
 
 Para agregar una nueva tarea, escribe el texto en el campo de entrada y presiona el botón "Añadir Tarea".
@@ -44,6 +47,7 @@ Para eliminar una tarea, haz clic en el icono de basura al lado de la tarea.
 Para marcar una tarea como completada o no completada, haz clic en la tarea.
 
 ## Contribuir
+
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
 Haz un fork del repositorio.
