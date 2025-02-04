@@ -1,8 +1,19 @@
-# React + Vite
+# Task List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task List es una aplicación de lista de tareas simple y eficiente construida con React. Permite a los usuarios agregar, eliminar y marcar tareas como completadas.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Agregar nuevas tareas.
+- Eliminar tareas existentes.
+- Marcar tareas como completadas o no completadas.
+- Almacenamiento de tareas en el almacenamiento local del navegador.
+
+## Instalación
+
+Sigue estos pasos para instalar y ejecutar la aplicación localmente:
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/JosePrograming25/-task-list.git
