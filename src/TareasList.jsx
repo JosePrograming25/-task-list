@@ -59,7 +59,7 @@ const TareasList = ({ changeTareas: setTareas }) => {
                     className={list.completada ? 'tarea tareaCompletada' : 'tarea'}
                     key={indice}>
 
-                    <p onClick={handlerclick}>{list.text}<span className="fecha">{formatFecha(list.creacion)}</span></p>
+                    <p onClick={handlerclick}>{list.text}<span className="fecha ">{formatFecha(list.creacion)}</span></p>
 
                     <div className="options">
                         <input type="checkbox"
